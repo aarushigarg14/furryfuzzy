@@ -8,6 +8,7 @@ import ShopCategory from "./Pages/ShopCategory";
 import women_banner from "./Components/Assets/banner_women.png";
 import men_banner from "./Components/Assets/banner_mens.png";
 import kid_banner from "./Components/Assets/banner_kids.png";
+import fish_banner from "./Components/Assets/banner_fish.png";
 import LoginSignup from "./Pages/LoginSignup";
 
 export const backend_url = 'http://localhost:4000';
@@ -24,7 +25,7 @@ function App() {
           <Route path="/dogs" element={<ShopCategory banner={men_banner} category="dogs" />} />
           <Route path="/cats" element={<ShopCategory banner={women_banner} category="cats" />} />
           <Route path="/birds" element={<ShopCategory banner={kid_banner} category="birds" />} />
-          <Route path="/others" element={<ShopCategory banner={kid_banner} category="others" />} />
+          <Route path="/others" element={<ShopCategory banner={fish_banner} category="others" />}/>
           <Route path='/product' element={<Product />}>
             <Route path=':productId' element={<Product />} />
           </Route>
