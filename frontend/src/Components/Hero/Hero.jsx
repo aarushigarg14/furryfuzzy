@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div className="hero">
      
-        <img src={new_banner} alt="hero" />
+        <img src={new_banner} alt="banner"  style={{ width: '100%', height: 'auto' }}/>
       </div>
     
   );
