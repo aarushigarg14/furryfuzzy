@@ -27,10 +27,10 @@ const Navbar = () => {
       <img onClick={dropdown_toggle} className='nav-dropdown' src={nav_dropdown} alt="" />
       <ul ref={menuRef} className="nav-menu">
         <li onClick={()=>{setMenu("shop")}}><Link to='/' style={{ textDecoration: 'none' }}>Shop</Link>{menu==="shop"?<hr/>:<></>}</li>
-        <li onClick={()=>{setMenu("dogs")}}><Link to='/dogs' style={{ textDecoration: 'none' }}>dogs</Link>{menu==="dogs"?<hr/>:<></>}</li>
-        <li onClick={()=>{setMenu("cats")}}><Link to='/cats' style={{ textDecoration: 'none' }}>cats</Link>{menu==="cats"?<hr/>:<></>}</li>
-        <li onClick={()=>{setMenu("birds")}}><Link to='/birds' style={{ textDecoration: 'none' }}>birds</Link>{menu==="birds"?<hr/>:<></>}</li>
-        <li onClick={()=>{setMenu("others")}}><Link to='/others' style={{ textDecoration: 'none' }}>others</Link>{menu==="others"?<hr/>:<></>}</li>
+        <li onClick={()=>{setMenu("dogs")}}><Link to='/dogs' style={{ textDecoration: 'none' }}>Dogs</Link>{menu==="dogs"?<hr/>:<></>}</li>
+        <li onClick={()=>{setMenu("cats")}}><Link to='/cats' style={{ textDecoration: 'none' }}>Cats</Link>{menu==="cats"?<hr/>:<></>}</li>
+        <li onClick={()=>{setMenu("birds")}}><Link to='/birds' style={{ textDecoration: 'none' }}>Birds</Link>{menu==="birds"?<hr/>:<></>}</li>
+        <li onClick={()=>{setMenu("others")}}><Link to='/others' style={{ textDecoration: 'none' }}>Others</Link>{menu==="others"?<hr/>:<></>}</li>
       </ul>
       <div className="nav-login-cart">
         {localStorage.getItem('auth-token')
