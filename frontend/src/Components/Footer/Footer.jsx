@@ -1,5 +1,7 @@
 import React from 'react'
 import './Footer.css'
+import { Link } from 'react-router-dom';  // Add this import statement
+
 
 import footer_logo from '../Assets/logo.jpg'
 import instagram_icon from '../Assets/instagram_icon.png'
@@ -13,9 +15,9 @@ const Footer = () => {
         <img src={footer_logo} alt="" />
       </div>
       <ul className="footer-links">
-        <li>Company</li>
-        <li>Products</li>
-        <li>Offices</li>
+
+        <li><Link to="/terms-and-conditions">Terms and conditions</Link></li>
+        <li><Link to="/blogs">Blog</Link></li>
         <li>About</li>
         <li>Contact</li>
       </ul>
