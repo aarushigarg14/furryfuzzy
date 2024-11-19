@@ -12,7 +12,7 @@ import fish_banner from "./Components/Assets/banner_fish.jpg";
 import LoginSignup from "./Pages/LoginSignup";
 import Blogs from "./Pages/Blog/blogs";
 import TermsAndConditions from "./Pages/TermsAndConditions";
-import Aboutus from "./Pages/aboutus";
+import Aboutus from "./Pages/aboutus/aboutus";
 
 export const backend_url = 'http://localhost:4000';
 export const currency = '₹';
