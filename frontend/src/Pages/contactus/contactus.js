@@ -4,9 +4,9 @@ import './contactus.css'; // We'll create a CSS file for styling
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
-    name: 'furry and fuzzy whiskers',
-    email: 'whiskersbuisness@gmail.com',
-    message:'you can send it here.'
+    name: '',
+    email: '',
+    message:''
   });
 
   const handleChange = (e) => {

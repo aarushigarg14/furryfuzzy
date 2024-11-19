@@ -38,7 +38,7 @@ function App() {
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
           <Route path="/aboutus" element={<Aboutus />} />
-          <Route path="/contact-us" element={<Contactus />} />
+          <Route path="/contactus" element={<Contactus />} />
 
 
         </Routes>
