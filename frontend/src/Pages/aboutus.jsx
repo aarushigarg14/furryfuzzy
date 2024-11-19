@@ -1,6 +1,6 @@
 // src/Pages/AboutUs.js
 import React from 'react';
-import './aboutUs.css'; 
+import './aboutus.css'; 
 
 const AboutUs = () => {
   return (
