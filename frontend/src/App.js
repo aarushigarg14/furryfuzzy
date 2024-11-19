@@ -13,6 +13,7 @@ import LoginSignup from "./Pages/LoginSignup";
 import Blogs from "./Pages/Blog/blogs";
 import TermsAndConditions from "./Pages/TermsAndConditions";
 import Aboutus from "./Pages/aboutus/aboutus";
+import Contactus from './Pages/contactus/contactus';
 
 export const backend_url = 'http://localhost:4000';
 export const currency = '₹';
@@ -37,6 +38,7 @@ function App() {
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
           <Route path="/aboutus" element={<Aboutus />} />
+          <Route path="/contact-us" element={<Contactus />} />
 
 
         </Routes>
