@@ -1,0 +1,22 @@
+.terms-page {
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .terms-page h1 {
+    font-size: 2rem;
+    color: #08122D;
+  }
+  
+  .terms-page h2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  
+  .terms-page p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 10px;
+  }
+  

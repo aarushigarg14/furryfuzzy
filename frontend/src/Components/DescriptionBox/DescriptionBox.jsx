@@ -10,19 +10,17 @@ const DescriptionBox = () => {
       </div>
       <div className="descriptionbox-description">
         <p>
-          An e-commerce website is an online platform that facilitates the
-          buying and selling of products or services over the internet. It
-          serves as a virtual marketplace where businesses and individuals can
-          showcase their products, interact with customers, and conduct
-          transactions without the need for a physical presence. E-commerce
-          websites have gained immense popularity due to their convenience,
-          accessibility, and the global reach they offer.
+        Welcome to Furry and Fuzzy Whiskers, your ultimate online destination 
+        for all things pet-related! Our eCommerce pet website is designed to 
+        provide a seamless shopping experience for pet parents and animal lovers, 
+        offering a wide range of high-quality products for dogs, cats, fish, birds,
+         and small animals.
         </p>
         <p>
-          E-commerce websites typically display products or services along with
-          detailed descriptions, images, prices, and any available variations
-          (e.g., sizes, colors). Each product usually has its own dedicated page
-          with relevant information.
+        Furry and Fuzzy Whiskers is here to make caring for your pets a joyful
+        and hassle-free experience.Whether you have a playful pup, a curious cat, 
+        or a serene aquarium, our website provides a seamless shopping experience
+         with categories tailored for every pet. 
         </p>
       </div>
     </div>

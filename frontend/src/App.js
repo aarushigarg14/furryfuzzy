@@ -10,6 +10,9 @@ import men_banner from "./Components/Assets/banner_mens.png";
 import kid_banner from "./Components/Assets/banner_kids.png";
 import fish_banner from "./Components/Assets/banner_fish.jpg";
 import LoginSignup from "./Pages/LoginSignup";
+import Blogs from "./Pages/Blog/blogs";
+import TermsAndConditions from "./Pages/TermsAndConditions";
+
 
 export const backend_url = 'http://localhost:4000';
 export const currency = '₹';
@@ -27,10 +30,15 @@ function App() {
           <Route path="/birds" element={<ShopCategory banner={kid_banner} category="birds" />} />
           <Route path="/others" element={<ShopCategory banner={fish_banner} category="others" />}/>
           <Route path='/product' element={<Product />}>
-            <Route path=':productId' element={<Product />} />
+            <Route path=':productId' element={<Product />} />s
           </Route>
           <Route path="/cart" element={<Cart />} />
           <Route path="/login" element={<LoginSignup/>} />
+          <Route path="/blogs" element={<Blogs />} />
+          <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+          
+
+
         </Routes>
         <Footer />
       </Router>
