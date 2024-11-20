@@ -12,7 +12,8 @@ import fish_banner from "./Components/Assets/banner_fish.jpg";
 import LoginSignup from "./Pages/LoginSignup";
 import Blogs from "./Pages/Blog/blogs";
 import TermsAndConditions from "./Pages/TermsAndConditions";
-
+import Aboutus from "./Pages/aboutus/aboutus";
+import Contactus from './Pages/contactus/contactus';
 
 export const backend_url = 'http://localhost:4000';
 export const currency = '₹';
@@ -36,7 +37,8 @@ function App() {
           <Route path="/login" element={<LoginSignup/>} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
-          
+          <Route path="/aboutus" element={<Aboutus />} />
+          <Route path="/contactus" element={<Contactus />} />
 
 
         </Routes>

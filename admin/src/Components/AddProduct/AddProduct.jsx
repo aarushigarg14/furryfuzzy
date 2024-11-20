@@ -10,7 +10,7 @@ const AddProduct = () => {
     name: "",
     description: "",
     image: "",
-    category: "cats",
+    category: "n",
     new_price: "",
     old_price: ""
   });
