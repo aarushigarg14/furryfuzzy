@@ -15,7 +15,7 @@ import TermsAndConditions from "./Pages/TermsAndConditions";
 import Aboutus from "./Pages/aboutus/aboutus";
 import Contactus from './Pages/contactus/contactus';
 
-export const backend_url = 'http://localhost:4000';
+export const backend_url = 'https://furryfuzzywhiskers.onrender.com';
 export const currency = '₹';
 
 function App() {
